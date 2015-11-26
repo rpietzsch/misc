@@ -1,0 +1,2491 @@
+{
+  "@graph": [
+    {
+      "@id": "ns:catalog",
+      "@type": "dcat:Catalog",
+      "title": "Dataset Katalog des Amt für Statistik und Wahlen der Stadt Leipzig",
+      "decription": null,
+      "issued": null,
+      "modified": null,
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "rights": null,
+      "spatial": null,
+      "hompage": "http://statistik.leipzig.de/api/katalog",
+      "publisher": "ns:org - afsuw",
+      "label": "Dataset Katalog",
+      "dataset": [
+        "ns:ds-1-1",
+        "ns:ds-2-1-q",
+        "ns:ds-2-1"
+      ],
+      "themeTaxonomie": "ns:categories"
+    },
+    {
+      "@id": "ns:categories",
+      "@type": "skos:ConceptScheme",
+      "hasTopConcept": "ns:concept-lis",
+      "prefLabel": "Hauptthemen"
+    },
+    {
+      "@id": "ns:concept-lis",
+      "@type": "skos:Concept",
+      "inScheme": "ns:categories",
+      "narrower": "ns:stadt-daten",
+      "prefLabel": "Statistik Leipzig-Informationssystem",
+      "topConceptOf": "ns:categories"
+    },
+    {
+      "@id": "ns:concept-1",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Stadtgebiet und Witterung"
+    },
+    {
+      "@id": "ns:concept-2",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Bevölkerungsbestand"
+    },
+    {
+      "@id": "ns:concept-3",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Bevölkerungsbewegung"
+    },
+    {
+      "@id": "ns:concept-4",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Gesundheit und Soziales"
+    },
+    {
+      "@id": "ns:concept-5",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Bildung"
+    },
+    {
+      "@id": "ns:concept-6",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Bautätigkeit und Wohnen"
+    },
+    {
+      "@id": "ns:concept-7",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Erwerbstätigkeit und Arbeitsmarkt"
+    },
+    {
+      "@id": "ns:concept-8",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Wirtschaft"
+    },
+    {
+      "@id": "ns:concept-9",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Einkommen und Preise"
+    },
+    {
+      "@id": "ns:concept-10",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Verkehr"
+    },
+    {
+      "@id": "ns:concept-11",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Kultur und Sport"
+    },
+    {
+      "@id": "ns:concept-12",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Öffentliche Ordnung und Infrastruktur"
+    },
+    {
+      "@id": "ns:concept-13",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Energie und Umwelt"
+    },
+    {
+      "@id": "ns:concept-14",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen"
+    },
+    {
+      "@id": "ns:concept-15",
+      "@type": "skos:Concept",
+      "@inScheme": "ns:categories",
+      "@broader": "ns:stadt-daten",
+      "@prefLabel": "Wahlen"
+    },
+    {
+      "@id": "ns:ds1-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Mar  6 2015 12:00AM",
+      "publisher": "",
+      "title": "Geografische Lage",
+      "dataFromDate": "",
+      "dataSource": "ns:org-2",
+      "dataUntilDate": "",
+      "datasetComment": "Angrenzende Gemeinden: Rackwitz, Krostitz, Jesewitz, Taucha, Borsdorf, Brandis, Großpösna, Markkleeberg, Zwenkau, Kitzen, Markranstädt, Schkeuditz",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-1",
+      "distributions": [
+        "ns:ds-1-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds1-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Mar  6 2015 12:00AM",
+      "publisher": "",
+      "title": "Fläche nach Nutzungsarten",
+      "dataFromDate": "",
+      "dataSource": "ns:org-2",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-1",
+      "distributions": [
+        "ns:ds-1-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds2-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Sep 28 2015 12:00AM",
+      "publisher": "",
+      "title": "Einwohner",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Bis I.&nbsp;Quartal 2011: Bevölkerungsfortschreibung auf Basis vom 3.10.1990. <br/>Ab II.&nbsp;Quartal 2011: Bevölkerungsfortschreibung auf Basis der Zensusdaten vom 9.5.2011.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-2",
+      "distributions": [
+        "ns:ds-2-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds3-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Sep 28 2015 12:00AM",
+      "publisher": "",
+      "title": "Geborene und Gestorbene",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-3",
+      "distributions": [
+        "ns:ds-3-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds3-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Eheschließungen und Ehescheidungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-3",
+      "distributions": [
+        "ns:ds-3-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds4-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 21 2014 12:00AM",
+      "publisher": "",
+      "title": "Kindertages-einrichtungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-5",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-4",
+      "distributions": [
+        "ns:ds-4-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds5-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 22 2014 12:00AM",
+      "publisher": "",
+      "title": "Allgemeinbildende Schulen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Einschließlich Schulen in freier Trägerschaft",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-5",
+      "distributions": [
+        "ns:ds-5-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds5-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 22 2014 12:00AM",
+      "publisher": "",
+      "title": "Berufsbildende Schulen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Einschließlich Schulen in freier Trägerschaft",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-5",
+      "distributions": [
+        "ns:ds-5-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds5-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 22 2014 12:00AM",
+      "publisher": "",
+      "title": "Hochschulen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-5",
+      "distributions": [
+        "ns:ds-5-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds5-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 22 2014 12:00AM",
+      "publisher": "",
+      "title": "Volkshochschule",
+      "dataFromDate": "",
+      "dataSource": "ns:org-6",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-5",
+      "distributions": [
+        "ns:ds-5-5-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds7-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Beschäftigte",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Ab 2008 modifizierte Klassifikation der Wirtschaftszweige nach WZ 2008",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-7",
+      "distributions": [
+        "ns:ds-7-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds7-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Auszubildende",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Auszubildende am Arbeitsort. Ab 2008 modifizierte Klassifikation der Wirtschaftszweige nach WZ 2008.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-7",
+      "distributions": [
+        "ns:ds-7-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds7-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Sep 30 2015 12:00AM",
+      "publisher": "",
+      "title": "Arbeitslose",
+      "dataFromDate": "",
+      "dataSource": "ns:org-7",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-7",
+      "distributions": [
+        "ns:ds-7-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Feb 14 2012 12:00AM",
+      "publisher": "",
+      "title": "Firmen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-8",
+      "dataUntilDate": "",
+      "datasetComment": "Ab 2009 modifizierte Klassifikation der Wirtschaftszweige nach WZ 2008",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Handwerksbetriebe",
+      "dataFromDate": "",
+      "dataSource": "ns:org-9",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Verarbeitendes Gewerbe",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Betriebe mit mindestens 50 Beschäftigten (bis 2002 mit mindestens 20 Beschäftigten)",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 30 2014 12:00AM",
+      "publisher": "",
+      "title": "Personal nach Aufgabenbereichen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Im hier angeführten Personalbestand der Stadtverwaltung sind die Beschäftigten der Eigenbetriebe nicht enthalten.<br/>\r\nAb 2013 erfolgt die Zuordnung der Beschäftigten zu <a class='link' href='/statcity/table.aspx?cat=14&rub=2'>Produktbereichen</a> gemäß Produktplan.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Einnahmen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Ausgaben",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-5-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-6",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Steuereinnahmen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-28",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-6-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds6-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Wohnungsbestand",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben beinhalten auch leer stehende Wohnungen.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-6",
+      "distributions": [
+        "ns:ds-6-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Bauhauptgewerbe",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Betriebe mit mindestens 20 Beschäftigten",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Ausbaugewerbe",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Betriebe mit mindestens 20 Beschäftigten",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-5-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-6",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Gewerbemeldungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Ab 2008 modifizierte Klassifikation der Wirtschaftszweige nach WZ 2008",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-6-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-7",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Insolvenzverfahren",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Ab 2008 modifizierte Klassifikation der Wirtschaftszweige nach WZ 2008",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-7-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-11",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Messen und Ausstellungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-10",
+      "dataUntilDate": "",
+      "datasetComment": "Messen und Ausstellungen auf dem Leipziger Messegelände",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-11-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds10-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Mar  6 2015 12:00AM",
+      "publisher": "",
+      "title": "Straßennetz",
+      "dataFromDate": "",
+      "dataSource": "ns:org-11",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-10",
+      "distributions": [
+        "ns:ds-10-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds10-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Kraftfahrzeugbestand",
+      "dataFromDate": "",
+      "dataSource": "ns:org-12",
+      "dataUntilDate": "",
+      "datasetComment": "Ab 2007 ohne vorübergehend stillgelegte Fahrzeuge",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-10",
+      "distributions": [
+        "ns:ds-10-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds10-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Verkehrsunfälle",
+      "dataFromDate": "",
+      "dataSource": "ns:org-13",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-10",
+      "distributions": [
+        "ns:ds-10-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds10-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Personennahverkehr",
+      "dataFromDate": "",
+      "dataSource": "ns:org-14",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-10",
+      "distributions": [
+        "ns:ds-10-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds10-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Luftverkehr",
+      "dataFromDate": "",
+      "dataSource": "ns:org-15",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-10",
+      "distributions": [
+        "ns:ds-10-5-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-8",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Beherbergungskapazität",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-8-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-9",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Ankünfte und Übernachtungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-9-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-10",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Gäste nach Herkunftsländern",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-10-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Museen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-16",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Theater",
+      "dataFromDate": "",
+      "dataSource": "ns:org-16",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Nov 27 2014 12:00AM",
+      "publisher": "",
+      "title": "Bibliotheken",
+      "dataFromDate": "",
+      "dataSource": "ns:org-16",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Zoo Leipzig",
+      "dataFromDate": "",
+      "dataSource": "ns:org-17",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Bäder",
+      "dataFromDate": "",
+      "dataSource": "ns:org-21",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-5-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-6",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 12 2010 12:00AM",
+      "publisher": "",
+      "title": "Sportvereine",
+      "dataFromDate": "",
+      "dataSource": "ns:org-19",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-6-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds11-7",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Nov 27 2014 12:00AM",
+      "publisher": "",
+      "title": "Sporteinrichtungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-18",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-11",
+      "distributions": [
+        "ns:ds-11-7-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds13-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Immissionen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-23",
+      "dataUntilDate": "",
+      "datasetComment": "Messstation Leipzig-Mitte (Willy-Brandt-Platz / Am Hallischen Tor)",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-13",
+      "distributions": [
+        "ns:ds-13-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds13-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Mar  6 2015 12:00AM",
+      "publisher": "",
+      "title": "Wasserhygiene",
+      "dataFromDate": "",
+      "dataSource": "ns:org-27",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-13",
+      "distributions": [
+        "ns:ds-13-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Personal nach Dienstverhältnissen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Im hier angeführten Personalbestand der Stadtverwaltung sind die Beschäftigten der Eigenbetriebe nicht enthalten.<br/>\r\nAb 2013 erfolgt die Zuordnung der Beschäftigten zu <a class='link' href='/statcity/table.aspx?cat=14&rub=2'>Produktbereichen</a> gemäß Produktplan.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds6-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Aug 18 2015 12:00AM",
+      "publisher": "",
+      "title": "Baugenehmigungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Die Bautätigkeitsstatistik beinhaltet auf der Grundlage des Hochbaustatistikgesetzes (HBauStatG) alle Vorhaben, bei denen Wohnraum geschaffen oder verändert wird und ansonsten alle genehmigungs-, anzeige- und zustimmungspflichtigen Baumaßnahmen, die mit mehr als 18 000 € Kosten veranschlagt sind oder mehr als 350 m3 umbauten Raum aufweisen.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-6",
+      "distributions": [
+        "ns:ds-6-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds6-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 27 2014 12:00AM",
+      "publisher": "",
+      "title": "Baufertigstellungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Die Bautätigkeitsstatistik beinhaltet auf der Grundlage des Hochbaustatistikgesetzes (HBauStatG) alle Vorhaben, bei denen Wohnraum geschaffen oder verändert wird und ansonsten alle genehmigungs-, anzeige- und zustimmungspflichtigen Baumaßnahmen, die mit mehr als 18 000 € Kosten veranschlagt sind oder mehr als 350 m3 umbauten Raum aufweisen.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-6",
+      "distributions": [
+        "ns:ds-6-5-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds8-12",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 28 2014 12:00AM",
+      "publisher": "",
+      "title": "Bruttoinlandsprodukt und Bruttowertschöpfung",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-8",
+      "distributions": [
+        "ns:ds-8-12-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds5-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 22 2014 12:00AM",
+      "publisher": "",
+      "title": "Einschulungen und Nichteinschulungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Einschließlich Schulen in freier Trägerschaft",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-5",
+      "distributions": [
+        "ns:ds-5-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds3-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Sep 28 2015 12:00AM",
+      "publisher": "",
+      "title": "Wanderungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-3",
+      "distributions": [
+        "ns:ds-3-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds4-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Leistungsempfänger",
+      "dataFromDate": "",
+      "dataSource": "ns:org-7",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-4",
+      "distributions": [
+        "ns:ds-4-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds1-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Mar  6 2015 12:00AM",
+      "publisher": "",
+      "title": "Wetterdaten",
+      "dataFromDate": "",
+      "dataSource": "ns:org-30",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-1",
+      "distributions": [
+        "ns:ds-1-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds13-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Energieverbrauch",
+      "dataFromDate": "",
+      "dataSource": "ns:org-24",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-13",
+      "distributions": [
+        "ns:ds-13-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-7",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 13 2015 12:00AM",
+      "publisher": "",
+      "title": "Realsteuervergleich",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-7-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds15-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Dec 14 2009 12:00AM",
+      "publisher": "",
+      "title": "Europawahlen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": [
+        "ns:ds-15-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds15-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Dec 14 2009 12:00AM",
+      "publisher": "",
+      "title": "Bundestagswahlen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": [
+        "ns:ds-15-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds15-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct  1 2014 12:00AM",
+      "publisher": "",
+      "title": "Landtagswahlen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": [
+        "ns:ds-15-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds15-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 21 2014 12:00AM",
+      "publisher": "",
+      "title": "Stadtratswahlen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Die Wahl 2009 wurde aufgrund einer Wahlanfechtung am 27.09.2009 in fünf Wahlbezirken wiederholt. \r\nDie Wahl 2014 wurde aufgrund einer Entscheidung der Landesdirektion im Wahlkreis 9 für ungültig erklärt; daraufhin fand in diesem Wahlkreis am 12.10.2014 eine Neuwahl statt.\r\nIn der Tabelle sind die Ergebnisse unter Einbezug der Teil-Wiederholungswahl bzw. Teil-Neuwahl dargestellt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": [
+        "ns:ds-15-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds15-5",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": null,
+      "publisher": "",
+      "title": "Ortschaftsratswahlen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": []
+    },
+    {
+      "@id": "ns:ds15-6",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": null,
+      "publisher": "",
+      "title": "Oberbürgermeisterwahlen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": []
+    },
+    {
+      "@id": "ns:ds15-7",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": null,
+      "publisher": "",
+      "title": "Volksentscheide",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": []
+    },
+    {
+      "@id": "ns:ds15-8",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": null,
+      "publisher": "",
+      "title": "Bürgerentscheide",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-15",
+      "distributions": []
+    },
+    {
+      "@id": "ns:ds2-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 21 2014 12:00AM",
+      "publisher": "",
+      "title": "Einwohner nach Altersgruppen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Bis 2010: Bevölkerungsfortschreibung auf Basis vom 3.10.1990. <br/>Ab 2011: Bevölkerungsfortschreibung auf Basis der Zensusdaten vom 9.5.2011.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-2",
+      "distributions": [
+        "ns:ds-2-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds2-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 21 2014 12:00AM",
+      "publisher": "",
+      "title": "Alterskennziffern",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Bis 2010: Bevölkerungsfortschreibung auf Basis vom 3.10.1990. <br/>Ab 2011: Bevölkerungsfortschreibung auf Basis der Zensusdaten vom 9.5.2011.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-2",
+      "distributions": [
+        "ns:ds-2-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds9-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Nettoeinkommen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-9",
+      "distributions": [
+        "ns:ds-9-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds9-1",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Lebensunterhalt",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-9",
+      "distributions": [
+        "ns:ds-9-1-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds6-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Wohnsituation",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-6",
+      "distributions": [
+        "ns:ds-6-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds6-3",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Wohnungsmieten",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-6",
+      "distributions": [
+        "ns:ds-6-3-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-8",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Zufriedenheit mit den Lebensbedingungen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-8-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-10",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Probleme aus Bürgersicht",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-10-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-2",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct 30 2014 12:00AM",
+      "publisher": "",
+      "title": "Personal nach Produktbereichen",
+      "dataFromDate": "",
+      "dataSource": "ns:org-1",
+      "dataUntilDate": "",
+      "datasetComment": "Ab 2013 erfolgt die Zuordnung der Beschäftigten zu Produktbereichen gemäß Produktplan",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-2-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds2-4",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "Oct  5 2015 12:00AM",
+      "publisher": "",
+      "title": "Wohnberechtigte Einwohner",
+      "dataFromDate": "",
+      "dataSource": "ns:org-3",
+      "dataUntilDate": "",
+      "datasetComment": "Angaben einschließlich der Einwohner mit Nebenwohnsitz",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-2",
+      "distributions": [
+        "ns:ds-2-4-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds14-9",
+      "@type": "dcat:Dataset",
+      "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-A",
+      "language": "http://id.loc.gov/vocabulary/iso639-1/de",
+      "license": "dl-de-by-2.0",
+      "modified": "May  7 2015 12:00AM",
+      "publisher": "",
+      "title": "Einsatz von Haushaltsmitteln",
+      "dataFromDate": "",
+      "dataSource": "ns:org-22",
+      "dataUntilDate": "",
+      "datasetComment": "Alle Angaben sind Ergebnisse aus den Kommunalen Bürgerumfragen der Stadt Lepzig. Bei der Bürgerumfragen werden jährlich mehrere Tausend Leipzigerinnen und Leipziger im Alter von 18 bis 85 Jahren schriftlich zur Lebenssituation sowie zu Meinungen zu verschiedenen Themen der Stadtentwicklung befragt.",
+      "odpGroup": "",
+      "contactPoint": "",
+      "theme": "ns:concept-14",
+      "distributions": [
+        "ns:ds-14-9-json-ld"
+      ]
+    },
+    {
+      "@id": "ns:ds-1-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtgebiet und Witterung / Geografische Lage",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=1&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-1-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtgebiet und Witterung / Fläche nach Nutzungsarten",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=1&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-1-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtgebiet und Witterung / Wetterdaten",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=1&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Straßennetz",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Kraftfahrzeugbestand",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Verkehrsunfälle",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=3&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Verkehrsunfälle",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Personennahverkehr",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Luftverkehr",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=5&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-10-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Verkehr / Luftverkehr",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=5&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Museen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=1&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Museen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Theater",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=2&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Theater",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Bibliotheken",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Zoo Leipzig",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=4&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Zoo Leipzig",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Bäder",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=5&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Bäder",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=5&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-6-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Sportvereine",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=6&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-11-7-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Kultur und Sport / Sporteinrichtungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=7&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-13-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Energie und Umwelt / Immissionen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=13&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-13-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Energie und Umwelt / Wasserhygiene",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=13&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-13-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Energie und Umwelt / Energieverbrauch",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=13&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Personal nach Aufgabenbereichen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-10-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Probleme aus Bürgersicht",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=10&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Personal nach Produktbereichen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Personal nach Dienstverhältnissen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Einnahmen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Ausgaben",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=5&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-6-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Steuereinnahmen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=6&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-6-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Steuereinnahmen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=6&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-7-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Realsteuervergleich",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=7&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-8-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Zufriedenheit mit den Lebensbedingungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=8&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-14-9-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Einsatz von Haushaltsmitteln",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=9&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-15-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wahlen / Europawahlen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=15&rubrik_nr=1&periode=d&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-15-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wahlen / Bundestagswahlen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=15&rubrik_nr=2&periode=d&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-15-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wahlen / Landtagswahlen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=15&rubrik_nr=3&periode=d&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-15-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wahlen / Stadtratswahlen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=15&rubrik_nr=4&periode=d&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-2-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbestand / Einwohner",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=1&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-2-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbestand / Einwohner",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-2-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbestand / Einwohner nach Altersgruppen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-2-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbestand / Alterskennziffern",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-2-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbestand / Wohnberechtigte Einwohner",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=4&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-2-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbestand / Wohnberechtigte Einwohner",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-3-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbewegung / Geborene und Gestorbene",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=1&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-3-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbewegung / Geborene und Gestorbene",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-3-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbewegung / Wanderungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=2&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-3-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbewegung / Wanderungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-3-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bevölkerungsbewegung / Eheschließungen und Ehescheidungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-4-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Gesundheit und Soziales / Kindertages-einrichtungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=4&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-4-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Gesundheit und Soziales / Leistungsempfänger",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=4&rubrik_nr=2&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-4-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Gesundheit und Soziales / Leistungsempfänger",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=4&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-5-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bildung / Allgemeinbildende Schulen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=5&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-5-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bildung / Einschulungen und Nichteinschulungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=5&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-5-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bildung / Berufsbildende Schulen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=5&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-5-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bildung / Hochschulen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=5&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-5-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bildung / Volkshochschule",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=5&rubrik_nr=5&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Wohnungsbestand",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Wohnsituation",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Wohnungsmieten",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=3&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Wohnungsmieten",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Baugenehmigungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=4&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Baugenehmigungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-6-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Bautätigkeit und Wohnen / Baufertigstellungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=5&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-7-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Erwerbstätigkeit und Arbeitsmarkt / Beschäftigte",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=1&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-7-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Erwerbstätigkeit und Arbeitsmarkt / Beschäftigte",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-7-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Erwerbstätigkeit und Arbeitsmarkt / Auszubildende",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-7-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Erwerbstätigkeit und Arbeitsmarkt / Arbeitslose",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=3&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-7-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Erwerbstätigkeit und Arbeitsmarkt / Arbeitslose",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Firmen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-10-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Gäste nach Herkunftsländern",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=10&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-11-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Messen und Ausstellungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=11&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-12-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Bruttoinlandsprodukt und Bruttowertschöpfung",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=12&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Handwerksbetriebe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Verarbeitendes Gewerbe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=3&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-3-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Verarbeitendes Gewerbe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=3&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Bauhauptgewerbe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=4&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-4-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Bauhauptgewerbe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=4&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Ausbaugewerbe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=5&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-5-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Ausbaugewerbe",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=5&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-6-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Gewerbemeldungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=6&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-7-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Insolvenzverfahren",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=7&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-8-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Beherbergungskapazität",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=8&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-9-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Ankünfte und Übernachtungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=9&periode=q&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-8-9-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Wirtschaft / Ankünfte und Übernachtungen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=9&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-9-1-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Einkommen und Preise / Lebensunterhalt",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=9&rubrik_nr=1&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:ds-9-2-json-ld",
+      "@type": "dcat:Distribution",
+      "@title": "Einkommen und Preise / Nettoeinkommen",
+      "@downloadUrl": "http://statistik.leipzig.de/api/values?kategorie_nr=9&rubrik_nr=2&periode=y&format=json-ld",
+      "@mediaType": "application/ld+json"
+    },
+    {
+      "@id": "ns:org-1",
+      "@type": "foaf:Organization",
+      "label": "Statistisches Landesamt des Freistaates Sachsen",
+      "url": "http://www.statistik.sachsen.de"
+    },
+    {
+      "@id": "ns:org-2",
+      "@type": "foaf:Organization",
+      "label": "Amt für Geoinformation und Bodenordnung Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-3",
+      "@type": "foaf:Organization",
+      "label": "Ordnungsamt Leipzig (Einwohnerregister)",
+      "url": null
+    },
+    {
+      "@id": "ns:org-4",
+      "@type": "foaf:Organization",
+      "label": "Statistische Landesämter",
+      "url": null
+    },
+    {
+      "@id": "ns:org-5",
+      "@type": "foaf:Organization",
+      "label": "Amt für Jugend, Familie und Bildung Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-6",
+      "@type": "foaf:Organization",
+      "label": "Volkshochschule Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-7",
+      "@type": "foaf:Organization",
+      "label": "Statistik der Bundesagentur für Arbeit",
+      "url": "http://www.arbeitsagentur.de"
+    },
+    {
+      "@id": "ns:org-8",
+      "@type": "foaf:Organization",
+      "label": "Industrie- und Handelskammer zu Leipzig",
+      "url": "http://www.leipzig.ihk.de"
+    },
+    {
+      "@id": "ns:org-9",
+      "@type": "foaf:Organization",
+      "label": "Handwerkskammer zu Leipzig",
+      "url": "http://www.hwk-leipzig.de"
+    },
+    {
+      "@id": "ns:org-10",
+      "@type": "foaf:Organization",
+      "label": "Leipziger Messe GmbH",
+      "url": "http://www.leipziger-messe.de"
+    },
+    {
+      "@id": "ns:org-11",
+      "@type": "foaf:Organization",
+      "label": "Tiefbauamt Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-12",
+      "@type": "foaf:Organization",
+      "label": "Kraftfahrt-Bundesamt",
+      "url": "http://www.kba.de"
+    },
+    {
+      "@id": "ns:org-13",
+      "@type": "foaf:Organization",
+      "label": "Polizeidirektion Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-14",
+      "@type": "foaf:Organization",
+      "label": "Leipziger Verkehrsbetriebe GmbH",
+      "url": "http://www.lvb.de"
+    },
+    {
+      "@id": "ns:org-15",
+      "@type": "foaf:Organization",
+      "label": "Flughafen Leipzig-Halle GmbH",
+      "url": "http://www.flughafen-leipzig-halle.de"
+    },
+    {
+      "@id": "ns:org-16",
+      "@type": "foaf:Organization",
+      "label": "Aufgef&uuml;hrte Einrichtungen",
+      "url": null
+    },
+    {
+      "@id": "ns:org-17",
+      "@type": "foaf:Organization",
+      "label": "Zoo Leipzig GmbH",
+      "url": "http://www.zoo-leipzig.de"
+    },
+    {
+      "@id": "ns:org-18",
+      "@type": "foaf:Organization",
+      "label": "Amt für Sport Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-19",
+      "@type": "foaf:Organization",
+      "label": "Stadtsportbund Leipzig",
+      "url": "http://www.ssb-leipzig.de"
+    },
+    {
+      "@id": "ns:org-20",
+      "@type": "foaf:Organization",
+      "label": "Sportmuseum Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-21",
+      "@type": "foaf:Organization",
+      "label": "Sportbäder Leipzig GmbH",
+      "url": null
+    },
+    {
+      "@id": "ns:org-22",
+      "@type": "foaf:Organization",
+      "label": "Amt für Statistik und Wahlen Leipzig",
+      "url": "http://www.leipzig.de/statistik"
+    },
+    {
+      "@id": "ns:org-23",
+      "@type": "foaf:Organization",
+      "label": "Sächsisches Landesamt für Umwelt und Geologie",
+      "url": "http://www.umwelt.sachsen.de/lfug"
+    },
+    {
+      "@id": "ns:org-24",
+      "@type": "foaf:Organization",
+      "label": "Amt für Umweltschutz Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-25",
+      "@type": "foaf:Organization",
+      "label": "Kassenärztliche Vereinigung Sachsen",
+      "url": null
+    },
+    {
+      "@id": "ns:org-26",
+      "@type": "foaf:Organization",
+      "label": "Kassenzahnärztliche Vereinigung Sachsen",
+      "url": null
+    },
+    {
+      "@id": "ns:org-27",
+      "@type": "foaf:Organization",
+      "label": "Gesundheitsamt Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-28",
+      "@type": "foaf:Organization",
+      "label": "Stadtkämmerei Leipzig",
+      "url": null
+    },
+    {
+      "@id": "ns:org-29",
+      "@type": "foaf:Organization",
+      "label": "Sächsische Landesapothekerkammer",
+      "url": null
+    },
+    {
+      "@id": "ns:org-30",
+      "@type": "foaf:Organization",
+      "label": "Deutscher Wetterdienst",
+      "url": "http://www.dwd.de"
+    },
+    {
+      "@id": "ns:org-31",
+      "@type": "foaf:Organization",
+      "label": "Stadtplanungsamt Leipzig; Gesellschaft für Markt- und Absatzforschung (bis 2011) bzw. Büro Junker und Kruse Dortmund (ab 2013)",
+      "url": null
+    },
+    {
+      "@id": "ns:org-33",
+      "@type": "foaf:Organization",
+      "label": "Landeskriminalamt Sachsen",
+      "url": null
+    }
+  ],
+  "@catalog": {
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type": "@id"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type": "@id"
+    },
+    "prefLabel": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type": "@id"
+    },
+    "keyword": "http://statistik.leipzig.de/ontology/keyword",
+    "mediaType": "http://www.w3.org/ns/dcat#mediaType",
+    "title": "http://purl.org/dc/terms/title",
+    "downloadURL": {
+      "@id": "http://www.w3.org/ns/dcat#downloadURL",
+      "@type": "@id"
+    },
+    "hasTopConcept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type": "@id"
+    },
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "streetaddress": "http://www.w3.org/2006/vcard/ns#street-address",
+    "postalcode": "http://www.w3.org/2006/vcard/ns#postal-code",
+    "locality": "http://www.w3.org/2006/vcard/ns#locality",
+    "url": {
+      "@id": "http://www.w3.org/2006/vcard/ns#url",
+      "@type": "@id"
+    },
+    "fax": {
+      "@id": "http://statistik.leipzig.de/ontology/fax",
+      "@type": "@id"
+    },
+    "tel": {
+      "@id": "http://www.w3.org/2006/vcard/ns#tel",
+      "@type": "@id"
+    },
+    "email": {
+      "@id": "http://www.w3.org/2006/vcard/ns#email",
+      "@type": "@id"
+    },
+    "dataFromDate": "http://statistik.leipzig.de/ontology/dataFromDate",
+    "accrualPeriodicity": {
+      "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+      "@type": "@id"
+    },
+    "language": {
+      "@id": "http://purl.org/dc/terms/language",
+      "@type": "@id"
+    },
+    "distribution": {
+      "@id": "http://www.w3.org/ns/dcat#distribution",
+      "@type": "@id"
+    },
+    "license": "http://purl.org/dc/terms/license",
+    "dataUntilDate": "http://statistik.leipzig.de/ontology/dataUntilDate",
+    "datasetComment": "http://statistik.leipzig.de/ontology/datasetComment",
+    "contactPoint": {
+      "@id": "http://www.w3.org/ns/dcat#contactPoint",
+      "@type": "@id"
+    },
+    "odpGroup": "http://statistik.leipzig.de/ontology/odpGroup",
+    "modified": "http://purl.org/dc/terms/modified",
+    "dataSource": {
+      "@id": "http://statistik.leipzig.de/ontology/dataSource",
+      "@type": "@id"
+    },
+    "theme": {
+      "@id": "http://www.w3.org/ns/dcat#theme",
+      "@type": "@id"
+    },
+    "publisher": {
+      "@id": "http://purl.org/dc/terms/publisher",
+      "@type": "@id"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader",
+      "@type": "@id"
+    },
+    "homepage": {
+      "@id": "http://xmlns.com/foaf/0.1/homepage",
+      "@type": "@id"
+    },
+    "dataset": {
+      "@id": "http://www.w3.org/ns/dcat#dataset",
+      "@type": "@id"
+    },
+    "themeTaxonomy": {
+      "@id": "http://www.w3.org/ns/dcat#themeTaxonomy",
+      "@type": "@id"
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "ns": "http://statistik.leipzig.de/resource/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dctype": "http://purl.org/dc/dcmitype/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "statle": "http://statistik.leipzig.de/ontology/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#"
+  }
+}
