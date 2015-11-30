@@ -1958,14 +1958,14 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-11-1-q-json-ld",
+      "@id": "ns:dis-11-1-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Kultur und Sport / Museen",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=1&periode=y&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-11-2-q-json-ld",
+      "@id": "ns:dis-11-2-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Kultur und Sport / Theater",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=2&periode=y&format=json-ld",
@@ -1979,14 +1979,14 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-11-4-q-json-ld",
+      "@id": "ns:dis-11-4-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Kultur und Sport / Zoo Leipzig",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=4&periode=y&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-11-5-q-json-ld",
+      "@id": "ns:dis-11-5-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Kultur und Sport / Bäder",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=11&rubrik_nr=5&periode=y&format=json-ld",
@@ -2119,7 +2119,7 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-2-4-q-json-ld",
+      "@id": "ns:dis-2-4-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Bevölkerungsbestand / Wohnberechtigte Einwohner",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=4&periode=y&format=json-ld",
@@ -2217,7 +2217,7 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-6-4-q-json-ld",
+      "@id": "ns:dis-6-4-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Bautätigkeit und Wohnen / Baugenehmigungen",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=4&periode=y&format=json-ld",
@@ -2231,7 +2231,7 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-7-1-q-json-ld",
+      "@id": "ns:dis-7-1-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Erwerbstätigkeit und Arbeitsmarkt / Beschäftigte",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=1&periode=y&format=json-ld",
@@ -2245,7 +2245,7 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-7-3-q-json-ld",
+      "@id": "ns:dis-7-3-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Erwerbstätigkeit und Arbeitsmarkt / Arbeitslose",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=7&rubrik_nr=3&periode=y&format=json-ld",
@@ -2287,7 +2287,7 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-8-3-q-json-ld",
+      "@id": "ns:dis-8-3-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Wirtschaft / Verarbeitendes Gewerbe",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=3&periode=y&format=json-ld",
@@ -2329,7 +2329,7 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-8-9-q-json-ld",
+      "@id": "ns:dis-8-9-y-json-ld",
       "@type": "dcat:Distribution",
       "title": "Wirtschaft / Ankünfte und Übernachtungen",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=9&periode=y&format=json-ld",
@@ -2350,14 +2350,14 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-10-3-y-json-ld",
+      "@id": "ns:dis-10-3-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Verkehr / Verkehrsunfälle",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=3&periode=q&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-10-5-y-json-ld",
+      "@id": "ns:dis-10-5-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Verkehr / Luftverkehr",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=10&rubrik_nr=5&periode=q&format=json-ld",
@@ -2392,14 +2392,14 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-14-6-y-json-ld",
+      "@id": "ns:dis-14-6-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Stadtverwaltung, Kommunalpolitik und Kommunalfinanzen / Steuereinnahmen",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=14&rubrik_nr=6&periode=q&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-2-1-y-json-ld",
+      "@id": "ns:dis-2-1-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Bevölkerungsbestand / Einwohner",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=2&rubrik_nr=1&periode=q&format=json-ld",
@@ -2413,28 +2413,28 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-3-1-y-json-ld",
+      "@id": "ns:dis-3-1-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Bevölkerungsbewegung / Geborene und Gestorbene",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=1&periode=q&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-3-2-y-json-ld",
+      "@id": "ns:dis-3-2-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Bevölkerungsbewegung / Wanderungen",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=3&rubrik_nr=2&periode=q&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-4-2-y-json-ld",
+      "@id": "ns:dis-4-2-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Gesundheit und Soziales / Leistungsempfänger",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=4&rubrik_nr=2&periode=q&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-6-3-y-json-ld",
+      "@id": "ns:dis-6-3-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Bautätigkeit und Wohnen / Wohnungsmieten",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=6&rubrik_nr=3&periode=q&format=json-ld",
@@ -2469,14 +2469,14 @@
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-8-4-y-json-ld",
+      "@id": "ns:dis-8-4-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Wirtschaft / Bauhauptgewerbe",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=4&periode=q&format=json-ld",
       "mediaType": "application/ld+json"
     },
     {
-      "@id": "ns:dis-8-5-y-json-ld",
+      "@id": "ns:dis-8-5-q-json-ld",
       "@type": "dcat:Distribution",
       "title": "Wirtschaft / Ausbaugewerbe",
       "downloadURL": "http://statistik.leipzig.de/api/values?kategorie_nr=8&rubrik_nr=5&periode=q&format=json-ld",
